@@ -9,5 +9,5 @@ if st.button("start"):
   b=19.337737482061705
   prediction=w1*height+w2*weight+b
   st.write(f"The prediction is {prediction}")
-
+  st.button("start")
 
