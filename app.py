@@ -15,7 +15,7 @@ TOTAL_ROUNDS = 5
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/all_seasons.csv")
+    df = pd.read_csv("all_seasons.csv")
     df = df[["player_name", "player_height",
              "player_weight", "pts"]].dropna()
     return df
