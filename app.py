@@ -27,4 +27,4 @@ reb=st.number_input("Rebounds: ")
 ast=st.number_input("Assists: ")
 
 predict = player_height*W[0]+player_weight*W[1]+age*W[2]+reb*W[3]+ast*W[4]+b
-st.Write(predict)
+st.write(predict)
