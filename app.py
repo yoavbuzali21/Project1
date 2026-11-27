@@ -6,8 +6,7 @@ import numpy as np
 st.set_page_config(page_title="NBA Predictor", page_icon="🏀")
 
 # Model parameters
-W=np.array[-1.05789158e-03 -2.81028014e-02 -7.25399727e-02  1.27346749e+00
-  1.72689998e+00]
+W=np.array[-1.05789158e-03, -2.81028014e-02, -7.25399727e-02,  1.27346749e+00, 1.72689998e+00]
 b =5.5216345564516836
 
 
